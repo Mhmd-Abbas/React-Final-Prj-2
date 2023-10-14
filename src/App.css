@@ -1,0 +1,132 @@
+.App {
+  display: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+   background-color: black; 
+}
+.main{
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+}
+
+.main2{
+  width: 40%; 
+}
+
+.suggest{
+  color: white;
+  margin-left: 10%;
+  width: 30%;
+  padding: 15px;
+}
+
+.Header{
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.Post{
+height: 85vh;
+}
+
+.PostImg{
+  height: 60%;
+  width: 100%;
+  object-fit:contain;
+}
+
+
+.textinput{
+  background-color: grey;
+  border: 1px solid white ;
+  color: white;
+  border-radius: 5px; 
+  opacity: 0.7;
+}
+
+.textinput2{
+  height: 10vh;
+  color: white;
+  background-color: grey;
+  border: 1px solid white ;
+  border-radius: 5px;
+  opacity: 0.7;
+}
+
+.masseges{
+  width: 100%;
+  height: 98%;
+  padding: 15px;
+  margin-left: 110%;
+  border-right: 2px solid rgba(128, 128, 128, 0.308);
+}
+
+.inprg{
+  width: max-content;
+  padding-top: 30%;
+  padding-left: 100%;
+  margin-left: 50%;
+}
+
+.login{
+  margin-top: 6%;
+  margin-left: 50px;
+  background-color: rgb(40, 40, 40);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 50%;
+}
+
+.loginTxt{
+  width: 80%;
+  height: 25px;
+  font-size: medium;
+  border-radius: 8px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.716);
+}
